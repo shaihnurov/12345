@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UFT-8">
+    </head>
+    <div class="background">
+        <div class="container">
+            <div class="panel">
+                <div class="wave_container_setting">
+                    <div class="wave_arrow">
+                        <div>
+                            <div>
+                              <input type="radio" name="input__button" class="wave_down" id="wave_arrow_down" >
+                              <label for="wave_arrow_down"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></label>
+                              <input type="radio" name="input__button" class="wave_up" id="wave_arrow_up" >
+                              <label for="wave_arrow_up"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/></svg></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wave_color">
+                        <input type="color" list="colors" id="favcolor" name="favcolor" class="color_container"/>
+                        <datalist id="colors">
+                            <option value="#0000FF" label="blue">
+                            <option value="#008000" label="green">
+                            <option value="#ff0000" label="red">
+                            <option value="#000000" label="black">
+                            <option value="#808080" label="gray">
+                            <option value="#FFFF00" label="yellow">
+                            <option value="#ff4000" label="orange">
+                            <option value="#ffc0cb" label="pink">
+                            <option value="#ffd700" label="gold">
+                            <option value="#800080" label="purple">
+                            <option value="#a52a2a" label="brown">
+                            <option value="#00ff00" label="lime">
+                        </datalist>
+                    </div>
+                    <div class="opocity_container">
+                            <input class="wave_opocity" placeholder="0" size="4" step="1" type="number" min="0" max="100">
+                        <div class="opocity_container_procent">%</div>
+                    </div>
+                    <div>
+                        <input type="range" min="1" max="100" value="50" class="wave_range" id="myRange">
+                    </div>
+                    <div class="wave_random">
+                        <button class="wave_random_button">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.937 7.53C19.227 4.119 15.803 2 12 2 6.486 2 2 6.486 2 12s4.486 10 10 10c3.803 0 7.227-2.119 8.937-5.53a1 1 0 0 0-.397-1.316L15.017 12l5.522-3.153c.461-.264.636-.842.398-1.317zm-8.433 3.602a.999.999 0 0 0 0 1.736l6.173 3.525A7.949 7.949 0 0 1 12 20c-4.411 0-8-3.589-8-8s3.589-8 8-8a7.95 7.95 0 0 1 6.677 3.606l-6.173 3.526z"/><circle cx="11.5" cy="7.5" r="1.5"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
